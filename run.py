@@ -7,7 +7,7 @@ import streamlit as st
 
 parkinsons_model = pickle.load(
     open(
-        "D:/programming/py/parkin/parkinsons_model.sav",
+        "parkinsons_model.sav",
         "rb",
     )
 )
